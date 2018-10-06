@@ -46,9 +46,25 @@ header{
     margin-bottom: 30px;
 
 }
-botao-solido {
+.botao-solido {
     background: #FF4E50;
     color: white;
     padding: 10px 30px;
     border-radius: 20px;
+    font-weight: bold;
+    display: inline-block;
+}
+@media(max-width: 500px){
+
+        .header-conteudo{
+            padding-left: 0;
+            padding-right: 0;
+            padding-top: 20px;
+
+        }
+        .header-topo{
+            flex-direction: column-reverse;
+            
+        }
+        .header-topo nav{margin-bottom: 50px;}
 }
